@@ -1,2 +1,38 @@
+# Dependencies
+node_modules/
 /node_modules
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+target/
+*.class
+
+# Logs
+*.log
+npm-debug.log*
+
+# Java
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# Misc
+*.tmp
+*.temp
+.cache/
